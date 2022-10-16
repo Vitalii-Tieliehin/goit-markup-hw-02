@@ -77,6 +77,7 @@ a {text-decoration: none;
     letter-spacing: 0.06em;
     background-color: var(--akcent-color);
     color: #FFFFFF;
+    cursor: pointer;
 }
 /* ---------------что мы делаем--------------- */
 .work-title{
@@ -92,7 +93,6 @@ a {text-decoration: none;
     text-transform: uppercase;    
 }
 .features .text{
-    font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
@@ -115,7 +115,6 @@ a {text-decoration: none;
     letter-spacing: 0.03em;    
 }
 .team-text{
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.19;
     letter-spacing: 0.03em;    
@@ -127,14 +126,12 @@ footer{
 }
 .address-text{
     color: var(--primery-white-color);
-    font-weight: 400;
     font-size: 14px;
     line-height: 1.71;    
     letter-spacing: 0.03em;
 }
 .address-link{ 
     color: rgba(255, 255, 255, 0.6);
-    font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
@@ -151,6 +148,7 @@ footer{
     letter-spacing: 0.03em;   
     color: var(--title-text-color);
     background-color:var(--secondary-color-bgc);
+    cursor: pointer;
 }
 .filtr .list .item:hover,.filtr .list .item:focus{
     color: var(--primery-white-color);
